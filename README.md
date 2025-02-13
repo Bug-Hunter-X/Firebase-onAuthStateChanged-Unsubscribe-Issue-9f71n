@@ -1,0 +1,3 @@
+# Firebase onAuthStateChanged Unsubscribe Issue
+
+This repository demonstrates a common issue with Firebase's `onAuthStateChanged` listener: forgetting to unsubscribe.  The provided code shows how the listener can be set up, and how to properly unsubscribe to prevent memory leaks and potential performance issues.  Failure to unsubscribe from listeners can lead to applications consuming excessive resources and behaving unexpectedly.  This example highlights the importance of resource management in Firebase applications.
